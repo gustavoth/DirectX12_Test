@@ -55,6 +55,9 @@ void Curves::Draw()
 
 void Curves::Finalize()
 {
+    rootSignature->Release();
+    pipelineState->Release();
+    delete(line);
 }
 
 void Curves::BuildRootSignature()
