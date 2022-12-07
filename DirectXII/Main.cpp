@@ -1,4 +1,4 @@
-#include "Triangle.h"
+#include "Curves.h"
 
 int APIENTRY WinMain(_In_ HINSTANCE hInstance,
     _In_opt_ HINSTANCE hPrevInstance,
@@ -19,7 +19,7 @@ int APIENTRY WinMain(_In_ HINSTANCE hInstance,
         engine->window->InFocus(Engine::Resume);
 
         // cria e executa a aplicação
-        int exit = engine->Start(new Triangle());
+        int exit = engine->Start(new Curves());
 
         // finaliza execução
         delete engine;

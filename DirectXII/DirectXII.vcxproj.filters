@@ -2,13 +2,16 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <FxCompile Include="Pixel.hlsl">
-      <Filter>Shaders</Filter>
+      <Filter>Engine</Filter>
     </FxCompile>
     <FxCompile Include="Vertex.hlsl">
-      <Filter>Shaders</Filter>
+      <Filter>Engine</Filter>
     </FxCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Curves.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="App.cpp">
       <Filter>Engine</Filter>
     </ClCompile>
@@ -33,14 +36,18 @@
     <ClCompile Include="Window.cpp">
       <Filter>Engine</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="Main.cpp" />
 <<<<<<< HEAD
 =======
     <ClCompile Include="Curves.cpp" />
 >>>>>>> Adicionar arquivos de projeto.
+=======
+>>>>>>> Adicionar arquivos de projeto.
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Curves.h" />
     <ClInclude Include="Triangle.h" />
     <ClInclude Include="App.h">
       <Filter>Engine</Filter>
@@ -82,10 +89,7 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Engine">
-      <UniqueIdentifier>{ae29d923-d965-4e03-b03d-07105086a9be}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Shaders">
-      <UniqueIdentifier>{ab33d72c-65d5-4d88-94ec-d0636515843a}</UniqueIdentifier>
+      <UniqueIdentifier>{2c66c2d6-b413-4c7f-af59-18da7b340799}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
