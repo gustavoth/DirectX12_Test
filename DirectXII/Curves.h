@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-#pragma once
-=======
-=======
->>>>>>> Adicionar arquivos de projeto.
 #ifndef _CURVES_H
 #define _CURVES
 
@@ -44,10 +38,4 @@ public:
     void resetPoints();
     void Subdivision();
 };
-
-<<<<<<< HEAD
-#endif // !_CURVES_H
->>>>>>> Adicionar arquivos de projeto.
-=======
-#endif
->>>>>>> Adicionar arquivos de projeto.
+#endif 
