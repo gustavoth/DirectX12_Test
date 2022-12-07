@@ -35,6 +35,10 @@
     </ClCompile>
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="Main.cpp" />
+<<<<<<< HEAD
+=======
+    <ClCompile Include="Curves.cpp" />
+>>>>>>> Adicionar arquivos de projeto.
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Triangle.h" />
@@ -71,6 +75,10 @@
     <ClInclude Include="Window.h">
       <Filter>Engine</Filter>
     </ClInclude>
+<<<<<<< HEAD
+=======
+    <ClInclude Include="Curves.h" />
+>>>>>>> Adicionar arquivos de projeto.
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Engine">
